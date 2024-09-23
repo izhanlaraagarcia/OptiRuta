@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--primary-color);
+    padding: var(--spacing-medium);
+    color: white;
+    text-align: center;
+    font-size: var(--font-size-large);
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  
