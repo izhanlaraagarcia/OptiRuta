@@ -94,5 +94,3 @@ npm test
 ```
 
 ---
-
-Este **README** ayudará a tus compañeros a comprender la estructura y configuración del proyecto, así como a seguir buenas prácticas de desarrollo colaborativo.
