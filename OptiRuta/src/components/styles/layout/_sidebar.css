@@ -1,0 +1,71 @@
+/* Estilos generales del sidebar */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2d3436;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+  z-index: 1000; /* Asegúrate de que esté encima del contenido */
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.sidebar-toggle {
+  font-size: 1.5rem;
+  color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-link {
+  color: #dfe6e9;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+}
+
+.sidebar-link:hover {
+  background-color: #636e72;
+  color: #ffffff;
+}
+
+.sidebar-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.sidebar.collapsed .sidebar-text {
+  display: none;
+}
+
+.sidebar.collapsed .sidebar-icon {
+  margin-right: 0;
+}
+
+.active {
+  background-color: #00b894;
+  color: #ffffff;
+}
+
+/* Transiciones suaves */
+.sidebar-link:hover,
+.active {
+  transition: background-color 0.3s, color 0.3s;
+}

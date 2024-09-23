@@ -1,0 +1,22 @@
+.dashboard-container {
+    display: flex;
+    background-color: var(--background-color);
+    height: 100vh;
+  }
+  
+  .dashboard-content {
+    flex-grow: 1;
+    padding: var(--spacing-large);
+    background-color: var(--background-color);
+  }
+  
+  .dashboard-title {
+    font-size: var(--font-size-large);
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  .dashboard-card {
+    margin-bottom: var(--spacing-large);
+  }
+  

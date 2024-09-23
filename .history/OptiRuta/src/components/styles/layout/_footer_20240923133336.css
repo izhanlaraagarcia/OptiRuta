@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--secondary-color);
+    padding: var(--spacing-medium);
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
