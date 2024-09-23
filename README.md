@@ -6,7 +6,7 @@ OptiRuta es una aplicación web diseñada para gestionar rutas de manera eficien
 ## Requisitos del sistema
 - **Sistema Operativo**: Linux (Ubuntu recomendado)
 - **Servidor Web**: Apache2
-- **Framework Frontend**: React con Vue.js como opción adicional
+- **Framework Frontend**: React con Vite como opción adicional
 - **Requisitos de Hardware**:
   - Procesador: Dual Core 2 GHz o superior
   - Memoria: 4 GB RAM o más

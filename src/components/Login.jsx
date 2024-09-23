@@ -1,16 +1,17 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { loginWithGoogle } from '../api/auth';
+import { loginWithGoogle } from '../api/auth'; // Importa la función de login con Google
 
 function Login() {
   const navigate = useNavigate();
 
   const handleGoogleLogin = async () => {
     try {
-      await loginWithGoogle();
-      navigate('/dashboard');
+      const user = await loginWithGoogle();
+      console.log("Inicio de sesión exitoso:", user);
+      navigate('/dashboard'); // Redirige al dashboard tras el inicio de sesión exitoso
     } catch (error) {
-      console.error('Error logging in with Google:', error);
+      console.error("Error al iniciar sesión con Google:", error);
     }
   };
 
