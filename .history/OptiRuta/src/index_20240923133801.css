@@ -1,9 +1,0 @@
-@import './components/styles/base/_reset.css';
-@import './components/styles/base/_variables.css';
-@import './components/styles/layout/_header.css';
-@import './components/styles/layout/_sidebar.css';
-@import './components/styles/layout/_footer.css';
-@import './components/styles/components/_button.css';
-@import './components/_card.css';
-@import './pages/_dashboard.css';
-@import './pages/_login.css';
