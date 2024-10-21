@@ -5,9 +5,14 @@ import Dashboard from './components/Dashboard';
 import RouteManagement from './components/RouteManagement';
 import UserSettings from './components/UserSettings';
 
+import { LanguageProvider } from './api/LanguageProvider';
+import LanguageToggleButton from './components/layouts/Langueje';
+
 function App() {
   return (
+    <LanguageProvider>
     <Router>
+    <LanguageToggleButton/>
       <div className="App">
         <Routes>
           <Route path="/" element={<Login />} />
@@ -17,7 +22,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-
+    </LanguageProvider>
   );
 }
 
