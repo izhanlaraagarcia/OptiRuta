@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import RouteManagement from './components/RouteManagement';
 import UserSettings from './components/UserSettings';
+import Mapa from './components/view/Mapa';
 
 import { LanguageProvider } from './api/LanguageProvider';
 import LanguageToggleButton from './components/layouts/Langueje';
@@ -19,6 +20,7 @@ function App() {
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/routes" element={<RouteManagement />} />
           <Route path="/settings" element={<UserSettings />} />
+          <Route path="/mapa" element={<Mapa/>}/>
         </Routes>
       </div>
     </Router>

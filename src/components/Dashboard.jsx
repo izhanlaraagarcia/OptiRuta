@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/pages/_dashboard.css';
 import Sidebar from './Sidebar';
+import Mapa from './view/Mapa';
 
 const DashboardCard = ({ title, content, stats }) => (
   <div className="dashboard-card">
@@ -72,6 +73,7 @@ const Dashboard = () => {
           ))}
         </section>
       </div>
+      <Mapa/>
       <Sidebar />
     </div>
   );
